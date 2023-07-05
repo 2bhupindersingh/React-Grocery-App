@@ -1,0 +1,24 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.line-throghy {
+  text-decoration: line-through;
+}
+.todo-list {
+  padding: 10px 10px 10px 15px;
+  background: #f2f2f2;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #616161;
+  position: relative;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  min-height: 58px;
+}
+.todo-list h6 {
+  margin-bottom: 0;
+}
+.todo-list.show h6 {
+  text-decoration: line-through;
+}
